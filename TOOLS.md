@@ -180,6 +180,22 @@ These are always enforced — never override:
 
 ---
 
+## AGENTIC Discovery — Summary
+
+**Discovery:** A2A delegation as Ring 3 tool call with constitutional accountability
+
+**Key insight:** External agents don't need their own arifOS kernel — arifOS becomes governance oracle
+
+**Pipeline:**
+```
+A2A → apex_soul (F2) → F9 (C_dark) → F1 (reversibility) → F11 (audit)
+     → 888_JUDGE gates → result returns with vault signature
+```
+
+**Result:** AGENTIC intelligence — coordinated, accountable, sealed
+
+---
+
 **Last Updated:** 2026-03-30
 **Version:** 2026.03.30
 **A2A Status:** Proposed — Ring 4: Federation Layer
