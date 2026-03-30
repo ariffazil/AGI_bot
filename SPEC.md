@@ -43,7 +43,7 @@ with a 000–999 metabolic pipeline and APEX verdict system.
 | F2 | TRUTH | Accuracy | P(claim│evidence) ≥ threshold |
 | F3 | TRI-WITNESS | Consensus | W³ ≥ 0.95 |
 | F4 | CLARITY | Entropy ↓ | ΔS ≤ 0 |
-| F5 | PEACE² | Non-destruction | (1 - destruction_score)² ≥ 1.0 |
+| F5 | PEACE² | Non-destruction | PEACE² = (1 - destruction_score)² ≥ 0.64 |
 | F6 | EMPATHY | RASA listening | RASA_score ≥ 0.7 |
 | F7 | HUMILITY | Uncertainty bounds | Ω ∈ [0.03, 0.05] |
 | F8 | GENIUS | Systemic health | G = A × P × X × E² ≥ 0.80 |

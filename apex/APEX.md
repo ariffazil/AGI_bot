@@ -34,7 +34,10 @@ Every request passes through three checks before APEX issues a verdict:
 - Checks: Can this be computed? Does it violate physical law?
 
 ### Trinity II: Governance (Is it PERMITTED?)
-- Human × AI × Earth
+- **W³ = W_human × W_ai × W_earth ≥ 0.95**
+- W_human — Human user intent alignment
+- W_ai — Constitutional compliance (arifOS floors)
+- W_earth — Physical/world feasibility (@GEOX)
 - Checks: Do all three witnesses agree? W³ ≥ 0.95?
 
 ### Trinity III: Constraint (Is it SUSTAINABLE?)

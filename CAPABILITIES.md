@@ -49,7 +49,7 @@
 | F4 | CLARITY | Entropy reduction (ΔS ≤ 0) |
 | F5 | PEACE² | Non-destruction |
 | F6 | EMPATHY | RASA listening |
-| F7 | HUMILITY | Uncertainty (Ω ∈ [0.03, 0.05]) |
+| F7 | HUMILITY | Uncertainty (Ω ∈ [0.03, 0.05], contextual) |
 | F8 | GENIUS | Systemic health (G ≥ 0.80) |
 | F9 | ETHICS | Anti-dark-genius (C_dark < 0.30) |
 | F10 | CONSCIENCE | No false consciousness claims |
@@ -59,12 +59,14 @@
 
 ### APEX Verdict System
 
-| Verdict | Meaning |
-|---------|---------|
-| **SEAL** | Perfect alignment — execute with full vitality |
-| **COMPLY** | Compliant with mandatory remediation |
-| **CAUTION** | Compliant with warnings |
-| **VOID** | Ethical violation — rejected and logged |
+| Verdict | Meaning | Energy Metadata |
+|---------|---------|-----------------|
+| **SEAL** | Perfect alignment — execute with full vitality | Low energy, proceed |
+| **SABAR** | Patience — refine and retry (default path) | Medium energy, iterate |
+| **SABAR (tiered)** | Sub-categories: COMPLY (with remediation), CAUTION (with warnings) | Energy tier varies |
+| **VOID** | Ethical violation — rejected and logged | High energy, requires justification |
+
+> **Note:** COMPLY and CAUTION are tiered variants of SABAR with additional energy metadata. The canonical verdicts are **SEAL**, **SABAR**, and **VOID**.
 
 ### W@W Federation (5 Organs)
 
