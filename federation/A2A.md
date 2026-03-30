@@ -209,7 +209,7 @@ Example output:
 
 ### KERNEL.md (Formula)
 ```
-W³ = W_theory × W_constitution × W_manifesto ≥ 0.95
+W³ = W_human × W_ai × W_earth ≥ 0.95
 ```
 
 ### APEX.md (Qualitative)

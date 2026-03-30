@@ -43,7 +43,12 @@ Every floor is a hard constraint. Violation triggers VOID.
 |--------|---------|-----------|
 | **Genius Index (G)** | A × P × X × E² | ≥ 0.80 |
 | **Vitality Index (Ψ)** | (ΔS × Peace² × RASA × Amanah) / (Entropy × Shadow + ε) | ≥ 1.0 |
-| **Witness Cube (W³)** | W_theory × W_constitution × W_manifesto | ≥ 0.95 |
+| **Witness Cube (W³)** | W_human × W_ai × W_earth | ≥ 0.95 |
+
+Where:
+- **W_human** — Human user intent alignment
+- **W_ai** — Constitutional compliance (arifOS floors)
+- **W_earth** — Physical/world feasibility (@GEOX)
 | **Humility (Ω)** | Epistemic uncertainty | ∈ [0.03, 0.05] |
 | **Dark Genius (C_dark)** | unethical_capability × deployment_risk | < 0.30 |
 
@@ -74,7 +79,7 @@ Ring 3: BODY (Tool Execution) — How do we execute?
   → 11 MEGA-TOOLS, PIPELINE, VAULT
 ```
 
-**Agreement Required:** W³ = W_theory × W_constitution × W_manifesto ≥ 0.95
+**Agreement Required:** W³ = W_human × W_ai × W_earth ≥ 0.95
 
 ---
 
