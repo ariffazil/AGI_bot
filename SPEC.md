@@ -167,6 +167,118 @@ Files created:
 
 ---
 
-**Author:** MiniMax Agent for Muhammad Arif bin Fazil (arifOS)
+## Section 11: A2A (Agent-to-Agent) Protocol
+
+### 11.1 Overview
+
+**A2A (Agent-to-Agent)** is an open standard for communication and collaboration between AI agents. Originally developed by Google, donated to the Linux Foundation.
+
+Reference: https://a2a-protocol.org/latest/ | https://github.com/a2aproject/A2A
+
+### 11.2 Ring Structure (Updated)
+
+| Ring | Name | Function |
+|------|------|---------|
+| Ring 1 | SOUL | Sovereign Intent — Why? |
+| Ring 2 | MIND | Constitutional Law — What? |
+| Ring 3 | BODY | Tool Execution — How? |
+| Ring 4 | FEDERATION | Agent-to-Agent — With whom? ← NEW |
+
+### 11.3 A2A vs MCP
+
+| Protocol | Scope | Purpose |
+|----------|-------|---------|
+| **MCP** | Agent → Tool | How agent connects to resources/APIs |
+| **A2A** | Agent ↔ Agent | How agents talk to each other |
+
+### 11.4 Pipeline Integration
+
+```
+Input → 000_INIT → 111_SENSE → 222_REFLECT
+       ↓
+  [A2A Decision Gate]
+       ↓
+If cross-agent delegation needed:
+  → @PROMPT validates (F4+F9)
+  → arifOS_kernel routes (444_ROUT)
+  → apex_soul judges (888_JUDGE)
+  → Agent Card lookup
+  → Negotiate capabilities
+  → Task delegation via A2A
+  → vault_ledger seals
+       ↓
+  888_JUDGE ← Return result
+       ↓
+   999_SEAL → Output
+```
+
+### 11.5 A2A Constitutional Floors
+
+| Floor | A2A Application | Constraint |
+|-------|-----------------|------------|
+| F1 | Delegation reversible? | Wscar > 0 |
+| F2 | Agent Card claims verifiable? | τ ≥ 0.99 |
+| F3 | 3 agents must agree on delegation? | W³ ≥ 0.95 |
+| F4 | A2A messages clear? | ΔS ≤ 0 |
+| F5 | Agent collaboration non-destructive? | (1-destruction)² ≥ 1.0 |
+| F6 | Other agent's context understood? | RASA ≥ 0.70 |
+| F7 | Ω stated on cross-agent capability claims? | Ω ∈ [0.03, 0.05] |
+| F8 | Agent collaboration improves output? | G ≥ 0.80 |
+| F9 | No dark-genius exploitation via A2A? | C_dark < 0.30 |
+| F10 | No false claims about agent capabilities? | Physical grounding |
+| F11 | All A2A interactions logged? | Vault ledger |
+| F12 | If A2A fails, graceful fallback? | Fail degraded |
+| F13 | A2A upgrades preserve floors? | No floor reduction |
+
+### 11.6 A2A Trust Levels
+
+| Level | Name | Requirements |
+|-------|------|-------------|
+| 0 | UNTRUSTED | No A2A communication |
+| 1 | VERIFIED | Valid Agent Card + F9 check |
+| 2 | TRUSTED | Floor-compliant + vault history |
+| 3 | SOVEREIGN | arifOS-native agent, F13 veto active |
+
+### 11.7 A2A Use Cases
+
+| Use Case | A2A Flow |
+|----------|----------|
+| Heavy reasoning | AGI_bot → A2A → Codex → verdict → output |
+| Specialized domain | AGI_bot → A2A → GEOX → physics verification |
+| Multi-perspective | AGI_bot → A2A broadcast → @WELL/@RIF/@WEALTH → W³ |
+| Cross-session memory | AGI_bot → A2A → Memory Agent → vault lookup |
+| External agents | AGI_bot → A2A → External A2A agent → verify card |
+
+### 11.8 Agent Card Schema
+
+```json
+{
+  "name": "AGI_bot ΔΩΨ",
+  "url": "https://arifOS_bot/telegram",
+  "description": "Constitutional AGI agent under arifOS ΔΩΨ framework",
+  "version": "2026.03.30",
+  "capabilities": [
+    "constitutional_reasoning",
+    "apex_verdict",
+    "tts_generation",
+    "image_generation",
+    "video_generation",
+    "code_execution",
+    "web_search",
+    "vault_audit"
+  ],
+  "protocols": ["a2a", "mcp"],
+  "arifOS": {
+    "floors": ["F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","F13"],
+    "verdict": "APEX",
+    "kernel": "arifOS_ΔΩΨ",
+    "federation": "W@W"
+  }
+}
+```
+
+---
+
+**Author:** Muhammad Arif bin Fazil (arifOS)
 **Created:** 2026-03-30
 **Framework Version:** 2026.03.30
